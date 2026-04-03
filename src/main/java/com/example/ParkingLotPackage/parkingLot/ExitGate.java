@@ -1,8 +1,7 @@
-package com.example.parkingLot;
+package com.example.ParkingLotPackage.parkingLot;
 
-import com.example.Entity.Vehicle;
-import com.example.pricing.PricingService;
-import com.example.ticket.Ticket;
+import com.example.ParkingLotPackage.pricing.PricingService;
+import com.example.ParkingLotPackage.ticket.Ticket;
 
 public class ExitGate {
 

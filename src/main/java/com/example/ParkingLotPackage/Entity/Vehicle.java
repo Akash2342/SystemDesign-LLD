@@ -1,4 +1,4 @@
-package com.example.Entity;
+package com.example.ParkingLotPackage.Entity;
 
 import com.example.Enum.VehicleType;
 

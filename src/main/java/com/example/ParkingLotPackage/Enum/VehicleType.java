@@ -1,4 +1,4 @@
-package com.example.Enum;
+package com.example.ParkingLotPackage.Enum;
 
 public enum VehicleType {
     TWO_WHEELER,

@@ -1,8 +1,8 @@
-package com.example.parkingLot;
+package com.example.ParkingLotPackage.parkingLot;
 
-import com.example.Entity.ParkingSpot;
-import com.example.Entity.Vehicle;
-import com.example.ticket.Ticket;
+import com.example.ParkingLotPackage.Entity.ParkingSpot;
+import com.example.ParkingLotPackage.Entity.Vehicle;
+import com.example.ParkingLotPackage.ticket.Ticket;
 
 import java.util.List;
 
