@@ -1,7 +1,8 @@
 package com.example.ParkingLotPackage.parkingLot;
 
 import com.example.ParkingLotPackage.Entity.ParkingSpot;
-import com.example.Enum.VehicleType;
+
+import com.example.ParkingLotPackage.Enum.VehicleType;
 import com.example.ParkingLotPackage.spotManagers.ParkingSpotManager;
 
 import java.util.Map;

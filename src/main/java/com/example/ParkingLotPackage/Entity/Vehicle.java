@@ -1,6 +1,7 @@
 package com.example.ParkingLotPackage.Entity;
 
-import com.example.Enum.VehicleType;
+
+import com.example.ParkingLotPackage.Enum.VehicleType;
 
 public class Vehicle {
 

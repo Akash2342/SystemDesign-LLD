@@ -2,7 +2,8 @@ package com.example.ParkingLotPackage;
 
 import com.example.ParkingLotPackage.Entity.ParkingSpot;
 import com.example.ParkingLotPackage.Entity.Vehicle;
-import com.example.Enum.VehicleType;
+
+import com.example.ParkingLotPackage.Enum.VehicleType;
 import com.example.ParkingLotPackage.parkingLot.ParkingBuilding;
 import com.example.ParkingLotPackage.parkingLot.ParkingLevel;
 import com.example.ParkingLotPackage.spotManagers.FourWheelerSpotManager;
