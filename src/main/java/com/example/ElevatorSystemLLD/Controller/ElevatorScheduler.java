@@ -1,9 +1,8 @@
-package com.example.ElevatorSystemPackage.Controller;
+package com.example.ElevatorSystemLLD.Controller;
 
-import com.example.ElevatorSystemPackage.Elevator.ElevatorDirection;
-import com.example.ElevatorSystemPackage.SelectionStrategy.ElevatorSelectionStrategy;
+import com.example.ElevatorSystemLLD.Elevator.ElevatorDirection;
+import com.example.ElevatorSystemLLD.SelectionStrategy.ElevatorSelectionStrategy;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class ElevatorScheduler {

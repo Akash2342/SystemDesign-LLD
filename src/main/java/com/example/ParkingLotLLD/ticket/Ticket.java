@@ -1,8 +1,8 @@
-package com.example.ParkingLotPackage.ticket;
+package com.example.ParkingLotLLD.ticket;
 
-import com.example.ParkingLotPackage.Entity.ParkingSpot;
-import com.example.ParkingLotPackage.Entity.Vehicle;
-import com.example.ParkingLotPackage.parkingLot.ParkingLevel;
+import com.example.ParkingLotLLD.Entity.ParkingSpot;
+import com.example.ParkingLotLLD.Entity.Vehicle;
+import com.example.ParkingLotLLD.parkingLot.ParkingLevel;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

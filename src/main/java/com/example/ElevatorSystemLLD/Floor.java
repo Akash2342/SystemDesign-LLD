@@ -1,8 +1,8 @@
-package com.example.ElevatorSystemPackage;
+package com.example.ElevatorSystemLLD;
 
-import com.example.ElevatorSystemPackage.Elevator.ElevatorDirection;
-import com.example.ElevatorSystemPackage.ElevatorButton.ExternalButton;
-import com.example.ElevatorSystemPackage.ElevatorDispatcher.ExternalDispatcher;
+import com.example.ElevatorSystemLLD.Elevator.ElevatorDirection;
+import com.example.ElevatorSystemLLD.ElevatorButton.ExternalButton;
+import com.example.ElevatorSystemLLD.ElevatorDispatcher.ExternalDispatcher;
 
 public class Floor {
     int floorNumber;

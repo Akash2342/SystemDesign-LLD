@@ -1,4 +1,4 @@
-package com.example.ElevatorSystemPackage.Elevator;
+package com.example.ElevatorSystemLLD.Elevator;
 
 public enum Door {
     OPEN_DOOR,

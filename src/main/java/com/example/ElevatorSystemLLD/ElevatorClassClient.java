@@ -1,15 +1,14 @@
-package com.example.ElevatorSystemPackage;
+package com.example.ElevatorSystemLLD;
 
-import com.example.ElevatorSystemPackage.Controller.ElevatorController;
-import com.example.ElevatorSystemPackage.Controller.ElevatorScheduler;
-import com.example.ElevatorSystemPackage.Elevator.ElevatorCar;
-import com.example.ElevatorSystemPackage.Elevator.ElevatorDirection;
-import com.example.ElevatorSystemPackage.ElevatorButton.ExternalButton;
-import com.example.ElevatorSystemPackage.ElevatorButton.InternalButton;
-import com.example.ElevatorSystemPackage.ElevatorDispatcher.ExternalDispatcher;
-import com.example.ElevatorSystemPackage.ElevatorDispatcher.InternalDispatcher;
-import com.example.ElevatorSystemPackage.SelectionStrategy.ElevatorSelectionStrategy;
-import com.example.ElevatorSystemPackage.SelectionStrategy.NearestElevatorStrategy;
+import com.example.ElevatorSystemLLD.Controller.ElevatorController;
+import com.example.ElevatorSystemLLD.Controller.ElevatorScheduler;
+import com.example.ElevatorSystemLLD.Elevator.ElevatorCar;
+import com.example.ElevatorSystemLLD.ElevatorButton.ExternalButton;
+import com.example.ElevatorSystemLLD.ElevatorButton.InternalButton;
+import com.example.ElevatorSystemLLD.ElevatorDispatcher.ExternalDispatcher;
+import com.example.ElevatorSystemLLD.ElevatorDispatcher.InternalDispatcher;
+import com.example.ElevatorSystemLLD.SelectionStrategy.ElevatorSelectionStrategy;
+import com.example.ElevatorSystemLLD.SelectionStrategy.NearestElevatorStrategy;
 
 import java.util.ArrayList;
 import java.util.List;

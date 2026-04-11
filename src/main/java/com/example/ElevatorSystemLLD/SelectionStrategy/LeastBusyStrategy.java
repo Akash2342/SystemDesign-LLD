@@ -1,7 +1,7 @@
-package com.example.ElevatorSystemPackage.SelectionStrategy;
+package com.example.ElevatorSystemLLD.SelectionStrategy;
 
-import com.example.ElevatorSystemPackage.Controller.ElevatorController;
-import com.example.ElevatorSystemPackage.Elevator.ElevatorDirection;
+import com.example.ElevatorSystemLLD.Controller.ElevatorController;
+import com.example.ElevatorSystemLLD.Elevator.ElevatorDirection;
 
 import java.util.List;
 

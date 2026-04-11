@@ -1,10 +1,9 @@
-package com.example.ElevatorSystemPackage.Controller;
+package com.example.ElevatorSystemLLD.Controller;
 
-import com.example.ElevatorSystemPackage.Elevator.ElevatorCar;
-import com.example.ElevatorSystemPackage.Elevator.ElevatorDirection;
+import com.example.ElevatorSystemLLD.Elevator.ElevatorCar;
+import com.example.ElevatorSystemLLD.Elevator.ElevatorDirection;
 
 import java.util.Collections;
-import java.util.PriorityQueue;
 import java.util.concurrent.PriorityBlockingQueue;
 
 public class ElevatorController implements Runnable {

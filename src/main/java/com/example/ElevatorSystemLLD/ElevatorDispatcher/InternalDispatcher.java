@@ -1,6 +1,6 @@
-package com.example.ElevatorSystemPackage.ElevatorDispatcher;
+package com.example.ElevatorSystemLLD.ElevatorDispatcher;
 
-import com.example.ElevatorSystemPackage.Controller.ElevatorController;
+import com.example.ElevatorSystemLLD.Controller.ElevatorController;
 
 public class InternalDispatcher {
     ElevatorController elevatorController;

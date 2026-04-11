@@ -1,15 +1,15 @@
-package com.example.ParkingLotPackage;
+package com.example.ParkingLotLLD;
 
-import com.example.ParkingLotPackage.Entity.ParkingSpot;
-import com.example.ParkingLotPackage.Entity.Vehicle;
+import com.example.ParkingLotLLD.Entity.ParkingSpot;
+import com.example.ParkingLotLLD.Entity.Vehicle;
 
-import com.example.ParkingLotPackage.Enum.VehicleType;
-import com.example.ParkingLotPackage.parkingLot.ParkingBuilding;
-import com.example.ParkingLotPackage.parkingLot.ParkingLevel;
-import com.example.ParkingLotPackage.spotManagers.FourWheelerSpotManager;
-import com.example.ParkingLotPackage.spotManagers.ParkingSpotManager;
-import com.example.ParkingLotPackage.spotManagers.TwoWheelerSpotManager;
-import com.example.ParkingLotPackage.ticket.Ticket;
+import com.example.ParkingLotLLD.Enum.VehicleType;
+import com.example.ParkingLotLLD.parkingLot.ParkingBuilding;
+import com.example.ParkingLotLLD.parkingLot.ParkingLevel;
+import com.example.ParkingLotLLD.spotManagers.FourWheelerSpotManager;
+import com.example.ParkingLotLLD.spotManagers.ParkingSpotManager;
+import com.example.ParkingLotLLD.spotManagers.TwoWheelerSpotManager;
+import com.example.ParkingLotLLD.ticket.Ticket;
 
 import java.util.ArrayList;
 import java.util.HashMap;

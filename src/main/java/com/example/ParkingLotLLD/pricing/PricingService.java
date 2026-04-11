@@ -1,6 +1,6 @@
-package com.example.ParkingLotPackage.pricing;
+package com.example.ParkingLotLLD.pricing;
 
-import com.example.ParkingLotPackage.ticket.Ticket;
+import com.example.ParkingLotLLD.ticket.Ticket;
 
 import java.time.Duration;
 import java.time.LocalDateTime;

@@ -1,4 +1,4 @@
-package com.example.ParkingLotPackage.Entity;
+package com.example.ParkingLotLLD.Entity;
 
 public class ParkingSpot {
 

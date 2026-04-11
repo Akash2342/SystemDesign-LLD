@@ -1,8 +1,6 @@
-package com.example.ElevatorSystemPackage.ElevatorButton;
+package com.example.ElevatorSystemLLD.ElevatorButton;
 
-import com.example.ElevatorSystemPackage.Controller.ElevatorController;
-import com.example.ElevatorSystemPackage.Elevator.ElevatorDirection;
-import com.example.ElevatorSystemPackage.ElevatorDispatcher.InternalDispatcher;
+import com.example.ElevatorSystemLLD.Controller.ElevatorController;
 
 public class InternalButton {
     ElevatorController controller;

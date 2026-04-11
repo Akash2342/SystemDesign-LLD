@@ -1,7 +1,7 @@
-package com.example.ElevatorSystemPackage.ElevatorButton;
+package com.example.ElevatorSystemLLD.ElevatorButton;
 
-import com.example.ElevatorSystemPackage.Elevator.ElevatorDirection;
-import com.example.ElevatorSystemPackage.ElevatorDispatcher.ExternalDispatcher;
+import com.example.ElevatorSystemLLD.Elevator.ElevatorDirection;
+import com.example.ElevatorSystemLLD.ElevatorDispatcher.ExternalDispatcher;
 
 public class ExternalButton {
     private final ExternalDispatcher externalDispatcher;

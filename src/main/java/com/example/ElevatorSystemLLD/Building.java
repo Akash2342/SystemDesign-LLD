@@ -1,6 +1,6 @@
-package com.example.ElevatorSystemPackage;
+package com.example.ElevatorSystemLLD;
 
-import com.example.ElevatorSystemPackage.ElevatorDispatcher.ExternalDispatcher;
+import com.example.ElevatorSystemLLD.ElevatorDispatcher.ExternalDispatcher;
 
 import java.util.ArrayList;
 import java.util.List;

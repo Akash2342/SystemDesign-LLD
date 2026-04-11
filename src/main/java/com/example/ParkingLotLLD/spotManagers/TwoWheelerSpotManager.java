@@ -1,6 +1,6 @@
-package com.example.ParkingLotPackage.spotManagers;
+package com.example.ParkingLotLLD.spotManagers;
 
-import com.example.ParkingLotPackage.Entity.ParkingSpot;
+import com.example.ParkingLotLLD.Entity.ParkingSpot;
 
 import java.util.List;
 
