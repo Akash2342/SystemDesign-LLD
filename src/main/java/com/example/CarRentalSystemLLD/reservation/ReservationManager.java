@@ -30,7 +30,7 @@ public class ReservationManager {
      * - Prevent double booking for SAME vehicle
      * - Allow parallel booking for DIFFERENT vehicles
      */
-    private final ConcurrentHashMap<String, Object> locks = new ConcurrentHashMap<>();
+    private final ConcurrentHashMap<String, Object> lockMap = new ConcurrentHashMap<>();
 
 
     /**
@@ -49,7 +49,7 @@ public class ReservationManager {
         String vehicleId = vehicle.getVehicleID();
 
         // Get or create a lock specific to this vehicle
-        Object lock = locks.computeIfAbsent(vehicleId, k -> new Object());
+        Object lock = lockMap.computeIfAbsent(vehicleId, k -> new Object());
 
         /**
          * WHY THIS LOCK?

@@ -8,11 +8,14 @@ public abstract class Payment {
     LocalTime paymentDate;
     PaymentType paymentType;
     PaymentStatus paymentStatus;
+    String billId;
+    double totalAmount;
 
-    Payment(PaymentType paymentType) {
+    Payment(PaymentType paymentType, String billId) {
         this.paymentId= UUID.randomUUID().toString();
         this.paymentDate = LocalTime.now();
         this.paymentType = paymentType;
+        this.billId = billId;
     }
 
     public abstract void makePayment(int amount);

@@ -5,8 +5,8 @@ import java.time.LocalTime;
 public class UPIPayment extends Payment {
     String upiId;
 
-    UPIPayment(String upiId){
-        super(PaymentType.UPI_PAYMENT);
+    UPIPayment(String upiId, String billId){
+        super(PaymentType.UPI_PAYMENT,billId);
         this.upiId = upiId;
     }
 
@@ -15,5 +15,6 @@ public class UPIPayment extends Payment {
         System.out.println("UPI Payment " + this.upiId + " of" + amount);
         this.paymentStatus= PaymentStatus.SUCCESS;
         System.out.println("Payment Successfull" + this.upiId + " of" + amount);
+        this.totalAmount = amount;
     }
 }
